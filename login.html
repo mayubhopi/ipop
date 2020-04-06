@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css" >
+    <title>Login</title>
+</head>
+<body oncontextmenu="return false">
+<div class="container">
+<h1>Login</h1>
+<form class="form">
+    <input class="userid" type="text" placeholder="Username" name="userid"><br>
+    <input class="password" type="password" placeholder="Password" name="pswrd"><br>
+    <input class="btn" type="button" onclick="check(this.form)" value="Sign in">
+</form>
+</div>
+
+
+        <script language = "javascript">
+            function check(form)
+            {
+                if(form.userid.value == "mayuresh" && form.pswrd.value == "mayuresh123")
+                {
+                    window.open('http://127.0.0.1:5500/ipop.html?name=&Email=&message=')
+                }
+                else{
+                    alert("Wrong Input Credentials")
+                }
+            }
+        </script>    
+</body>
+</html>

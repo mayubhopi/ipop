@@ -1,0 +1,46 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    position: fixed;
+    width: 100%;
+    width: auto;
+    height: auto;
+    background-image: url("https://t4.ftcdn.net/jpg/03/00/57/55/240_F_300575529_QXzPB1OhM9N9cZAGpDQTI409lhuloDm5.jpg");
+    background-size: cover;
+    top: 40%;
+    left: 40%;
+    font-family: sans-serif;
+}
+
+h1{
+    float: left;
+    color: white;
+    border-bottom: 6px solid #4caf50;
+}
+
+
+.userid{
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #4caf50;
+}
+.password{
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #4caf50;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
